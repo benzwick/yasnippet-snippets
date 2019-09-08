@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Benjamin Zwick
+# name: global-unset-key
+# key: global-unset-key
+# key: guk
+# --
+(global-unset-key (kbd "${1:KEY}"))$0

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# contributor: Xah Lee (XahLee.org)
+# contributor: Benjamin Zwick
 # name: define-key
 # key: define-key
 # key: dk
 # --
-(define-key ${1:mode}-map (kbd "${2:key}") $0)
+(define-key ${1:KEYMAP} "${2:KEY}" ${3:DEF})$0
